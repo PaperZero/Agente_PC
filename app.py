@@ -34,6 +34,7 @@ if st.button("Gerar Recomendação de Peças"):
                 "Portanto, monte a configuração com as PEÇAS MAIS BARATAS POSSÍVEIS do mercado brasileiro "
                 "que consigam rodar o jogo/programa informado de forma aceitável. "
                 "ATENÇÃO: Considere exclusivamente peças NOVAS (NÃO inclua peças usadas ou de segunda mão)."
+                "Não escolha placas de video inferiores a placa 1050 TI, exceto se for uma placa de video integrada no processador"
             )
         else:
             criterio_orcamento = f"Orçamento disponível: {orcamento}. Mantenha o custo total estritamente dentro desse limite."
